@@ -41,7 +41,6 @@ class Library:
 
     def add_book(self):
         book_id = input("Enter Book ID: ")
-
         if book_id in self.books:
             print("Book ID already exists!")
             return
